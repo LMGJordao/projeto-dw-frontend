@@ -1,1 +1,1 @@
-export const API_URL = 'http://wd-portfolio.local/wp-json/wp/v2/';
+export const API_URL = 'https://portfolio.humaginarium.net/wp-json/wp/v2/';
