@@ -24,7 +24,6 @@ const Project = () => {
 			<div dangerouslySetInnerHTML={{__html: projectInfo[0]?.content?.rendered}} />
 			<div>
 				<p>Client: {projectInfo[0]?.acf?.client}</p>
-				<img src={projectInfo[0]?.acf?.image} width='100' alt={projectInfo[0]?.acf?.client} />
 			</div>
 		</div>
 		)
