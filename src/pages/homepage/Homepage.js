@@ -43,7 +43,7 @@ const Homepage = () => {
 
 	return (
 		<div>
-			<h2>Projects</h2>
+			<h2>Projects !</h2>
 			<button className="filter-button" onClick={() => fetchProjects()}>All Projects</button>
 			{categories.map(category => (
 				<button 
